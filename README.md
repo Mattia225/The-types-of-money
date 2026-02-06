@@ -2,7 +2,7 @@
 
 this is page 1 the website
 
-![Logo](logo/logo1.png)
+![Logo](screen/1.png)
 
 this is page 2 the website
 
@@ -28,30 +28,3 @@ this is page 7 the website
 
 ![Logo](logo/logo7.png)
 
-this is page 8 the website
-
-![Logo](logo/logo8.png)
-
-this is page 9 the website
-
-![Logo](logo/logo9.png)
-
-this is page 10 the website
-
-![Logo](logo/logo10.png)
-
-this is page 11 the website
-
-![Logo](logo/logo11.png)
-
-this is page 12 the website
-
-![Logo](logo/logo12.png)
-
-this is page 13 the website
-
-![Logo](logo/logo13.png)
-
-this is page 14 the website
-
-![Logo](logo/logo14.png)
