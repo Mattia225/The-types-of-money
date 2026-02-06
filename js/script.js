@@ -165,8 +165,8 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
 
             wrapper.style.position = 'absolute';
-            wrapper.style.top = '13700px';
-            wrapper.style.right = '69px';
+            wrapper.style.top = '6800px';
+            wrapper.style.right = '500px';
             wrapper.style.width = '889px';
             wrapper.style.height = '460px';
             wrapper.style.padding = '10px';
@@ -217,3 +217,4 @@ document.addEventListener("DOMContentLoaded", () => {
         startCursorTimer();
     }
 });
+
