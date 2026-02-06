@@ -1,0 +1,463 @@
+@font-face {
+    font-family: "Hitchcut";
+    src: url("fonts/Hitchcut-Regular.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+	}
+	@font-face {
+    font-family: "OdibeeSans";
+    src: url("fonts/OdibeeSans-Regular.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+	}
+	@font-face {
+    font-family: "Noto Emoji";
+    src: url("fonts/NotoEmoji-Regular.ttf") format("truetype");
+}
+h1 {
+	font-family: "Hitchcut", Arial, sans-serif;
+	 color: #ffffff;
+	 font-size: 86px;
+	 text-align: center;
+	 text-transform: uppercase;
+	}
+	html, body {
+  background-color: #c1ff72;
+  margin: 0; /* opzionale, toglie i bordi bianchi */
+    display: flex;
+  flex-direction: column; /* 👈 IMPORTANTISSIMO */
+  
+}
+.boxwall {
+    background-image: url("img/p.png"),
+        url("img/p2.png"),
+        url("img/p1.png"),
+        url("img/p4.png"),
+		url("img/p3.png"),
+		url("img/p5.png"),
+		url("img/p6.png"),
+		url("img/p7.png"),
+        url("img/p8.png");		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+}
+h2 {
+	font-family: "OdibeeSans", Arial, sans-serif;
+	 font-size: 36px;
+	 text-align: center;
+	}	
+	.rotato {
+  transform: rotate(-3deg); /* gradi */
+}
+.testo {
+  margin-top: 400px;
+}
+	.box {
+  display: flex;
+   justify-content: center;   /* center | flex-start | flex-end | space-between */
+   
+   }
+   	.box1 {
+  display: flex;
+   justify-content: center;   /* center | flex-start | flex-end | space-between */
+  
+}
+.boxwa {
+    background-image: 
+        url("img/p9.png");
+        		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+}
+.page {
+  min-height: 100vh; /* ogni pagina occupa lo schermo */
+  font-family: "TT-Marxiana-Trial-Antiqua", serif;
+}
+.separator {
+	display: flex;
+  height: 10px;        /* spessore */
+  width: 100%;
+  background-color: black;
+}
+.boxwa1 {
+    background-image:
+	    url("img/p10.png"),
+		url("img/p11.png"),
+        url("img/p12.png");
+        		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+}
+.page1 {
+  min-height: 100vh; /* ogni pagina occupa lo schermo */
+  font-family: "TT-Marxiana-Trial-Antiqua", serif;
+  margin-top: 25px;"
+}
+  	.box3d {
+   display: flex;
+   justify-content: flex-start;   /* center | flex-start | flex-end | space-between */
+   margin-top: 30px;
+    margin-left: 30px;
+   }
+    	.box3d1 {
+   display: flex;
+   justify-content: center;   /* center | flex-start | flex-end | space-between */
+   margin-top: 30px;
+   }
+   .box3d2 {
+   display: flex;
+   justify-content: flex-end ;   /* center | flex-start | flex-end | space-between */
+   margin-top: -500px;
+   margin-right: 120px;
+   }
+      .box3d3 {
+   display: flex;
+   justify-content: flex-end ;   /* center | flex-start | flex-end | space-between */
+   margin-bottom: -500px;
+   margin-right: 110px;
+   }
+   .boxwa2 {
+    background-image:
+	    url("img/p13.png"),
+        url("img/p14.png");
+        		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+	background-color: #195854;
+	}
+	.testo1 {
+		font-size: 66.3px;
+		color: #1b1b1b;
+  margin-top: 220px;
+  margin-left: 320px;
+  
+}
+.testo2 {
+	font-size: 60px;
+		color: #1b1b1b;
+  margin-top: 140px;
+  margin-left: 800px;
+  text-transform: uppercase;
+}
+   .boxwa3 {
+    background-image:
+	    url("img/p15.png"),
+	    url("img/p16.png"),
+        url("img/p17.png");
+        		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+	background-color: #195854;
+	}
+		.testo5 {
+		font-size: 92.6px;
+		color: #ffffff;
+
+  
+}
+    	.box3d4 {
+   display: flex;
+   justify-content: center;   /* center | flex-start | flex-end | space-between */
+   margin-top: -500px;
+   }
+   .box3d5 {
+   display: flex;
+   justify-content: flex-end ;   /* center | flex-start | flex-end | space-between */
+   margin-top: -500px;
+   margin-right: 120px;
+   }
+      .box3d6 {
+   display: flex;
+   justify-content: flex-end ;   /* center | flex-start | flex-end | space-between */
+   
+   margin-right: 110px;
+   }
+      .boxwa4 {
+    background-image:
+	    url("img/p15.png"),
+	    url("img/p16.png"),
+        url("img/p18.png");
+        		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+	background-color: #195854;
+	}
+	      .box3d7 {
+   display: flex;
+   justify-content: flex-end ;   /* center | flex-start | flex-end | space-between */
+  
+   margin-right: 110px;
+   }
+   .img-quinta6 {
+	background-color: #195854;
+    position: absolute;
+    right: 500px;     
+    top: 6800px;   
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.img-quinta6 video {
+    width: 889px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.video-thumb {
+    position: absolute;
+     top: 10px;
+    left: 10px;
+    width: 889px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* Custom controls centrati */
+.custom-controls {
+	font-family: "Noto Emoji", sans-serif; /* usa le emoji */
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* centra orizzontalmente */
+    width: 700px; /* larghezza fissa */
+    height: 50px; /* altezza fissa */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 0.3s;
+
+}
+.custom-controls .time {
+    color: white;
+    font-family: "texgyrebonum", Arial, sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    user-select: none; /* non selezionabile */
+}
+
+
+/* Barra progresso */
+.progress-bar {
+    flex: 1;
+    height: 6px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background: red;
+    border-radius: 5px;
+}
+
+/* Pulsante play/pause */
+.play-pause, .fullscreen {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border-radius: 50%;
+}
+
+/* Volume slider */
+.volume {
+    width: 100px;
+    height: 6px;
+}
+/* FULLSCREEN FIX */
+.img-quinta6.fullscreen {
+    position: fixed;
+    inset: 0;          /* top:0; right:0; bottom:0; left:0 */
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    padding: 0;
+    border-radius: 0;
+}
+
+/* Video fullscreen */
+.img-quinta6.fullscreen video {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+}
+
+/* Copertina fullscreen (FIX DEL BUG) */
+.img-quinta6.fullscreen .video-thumb {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    object-fit: cover;
+}
+.wrapper {
+    display: flex;
+    justify-content: center; /* centro orizzontale */
+    align-items: center;     /* centro verticale */
+    background-color: black; /* bordi neri intorno al video */
+    width: 100vw;
+    height: 100vh;
+}
+
+video, .thumb {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* mantiene le proporzioni */
+    border-radius: 10px; /* opzionale per stile */
+}
+.video-block {
+    position: relative;             /* posizione normale sotto il video */
+    margin-top: 10px;
+    background: rgba(0,0,0,0.6);   /* sfondo scuro */
+    border: 3px solid #fff;        /* bordo visibile */
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 889px;               /* stessa larghezza del video */
+    z-index: 10;                    /* sopra i controlli */
+}
+.video-text {
+	top: 500px;
+	left: 100px;
+    position: relative;             /* rimane sotto il video */
+    margin-top: 10px;
+    background: rgba(0,0,0,0.6);   /* più scuro per separare */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border: 2px solid #fff;        /* bordo bianco */
+    max-width: 889px;               /* stessa larghezza del video */
+    text-align: left;
+    font-family: Arial, sans-serif;
+    z-index: 5;                     /* sopra lo sfondo ma sotto i controlli */
+    pointer-events: auto;           /* il mouse può cliccare sul testo */
+}
+
+.video-text h3 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.video-text p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.video-text.hidden {
+    display: none; /* Nasconde il testo */
+}
+.custom-controls button {
+    font-family: "Noto Emoji", sans-serif; /* usa le emoji */
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.custom-controls button:hover {
+    transform: scale(1.2);
+    background: rgba(255,255,255,0.3);
+}
+/* Menu risoluzione */
+.res-button {
+    font-family: "Noto Emoji", sans-serif;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+    position: relative;
+}
+
+.res-button:hover {
+    transform: scale(1.2);
+    background: rgba(255,255,255,0.3);
+}
+
+/* Menu verticale */
+.res-menu {
+    position: absolute;
+    bottom: 60px; /* sopra i controlli */
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    z-index: 20;
+    transition: opacity 0.3s;
+}
+
+.res-menu.hidden {
+    display: none;
+}
+
+.res-option {
+    padding: 8px 20px;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.res-option:hover {
+    background: rgba(255,255,255,0.2);
+}
+span {
+font-family: "Pompiere", Arial, sans-serif;
+}
+p {
+font-family: "OdibeeSans", Arial, sans-serif;
+
+}
+ .boxwa5 {
+
+	justify-content: center ;   /* center | flex-start | flex-end | space-between */
+	background-color: #195854;
+	}
+	.down {
+		margin-top: 500px;
+		text-align: center;
+	}
