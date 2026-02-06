@@ -1,4 +1,4 @@
-# the-French-Revolution
+# The types of money
 
 this is page 1 the website
 
